@@ -1,17 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <title>Adrian San Pedro | Developer</title>
-        <meta name="description" content="Adrian San Pedro's personal website to contain a digital portfolio of both web development and design throughout the years.">
+        <meta
+            name="description"
+            content="Adrian San Pedro's personal website to contain a digital portfolio of both web development and design throughout the years."
+        />
+        <link href="stylesheets/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>Adrian San Pedro</h1>
-        <div>
-            <h2>About Me</h2>
-            <p>
-                Work in progress...
-            </p>
-        </div>
+        <!-- Start of nav-bar -->
+        <nav id="navbar" class="main-section red">
+            <div id="nav-links-container">
+                <ul id="nav-links" class="nav-fields">
+                    <li class="link-section">
+                        <div>
+                            <a class="nav-link" href="#welcome-section"
+                                >About</a
+                            >
+                        </div>
+                    </li>
+                    <li class="link-section">
+                        <div>
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </div>
+                    </li>
+                    <li class="link-section">
+                        <div>
+                            <a class="nav-link" href="#resume-section"
+                                >Resume</a
+                            >
+                        </div>
+                    </li>
+                    <li class="link-section">
+                        <div>
+                            <a
+                                class="nav-link"
+                                href="#contact-information-section"
+                                >Contact</a
+                            >
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <!--  Start of "Welcome Section"  -->
+            <section id="welcome-section" class="main-section">
+                <!-- h1 header element with some sort of welcoming text -->
+                <h1>Adrian</h1>
+            </section>
+            <!--  start of "Projects Section"  -->
+            <section id="projects" class="main-section">
+                <!-- single project element container    -->
+                <!-- header eleemnt with class of project tile for a single project     -->
+                <!-- link to project       -->
+                <div>
+                    <h2>Projects</h2>
+                </div>
+                <article class="project-tile">
+                    <a
+                        id="profile-link"
+                        href="https://codepen.io/adram_creates/full/mdEWvOe"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Restaurant Reservation Form</a
+                    >
+                </article>
+            </section>
+            <section id="resume-section" class="main-section">
+                <div>
+                    <h1>Resume</h1>
+                </div>
+            </section>
+            <section id="contact-information-section" class="main-section">
+                <header>
+                    <h2>Contact Information</h2>
+                </header>
+            </section>
+        </main>
     </body>
 </html>
